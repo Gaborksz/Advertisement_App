@@ -1,0 +1,52 @@
+
+
+body{
+    background-image: linear-gradient(to right, rgb(40, 75, 135) , rgb(225, 225, 225));
+}
+
+h1{
+    font-size: 80px;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+}
+
+
+.title{
+    text-align: center;
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+    margin-top: 200px
+}
+
+.button{
+    height: 80px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin: 20px 20px;
+    font-size: 30px;    
+}
+
+.button:hover{
+    filter: brightness(0.85);
+}
+
+.columnTitle{
+    font-size: 40px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 4px;
+    padding: 10px;     
+}
+
+.columnContent{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 10px;     
+}
